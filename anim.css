@@ -11,7 +11,7 @@
     max-width: 1280px;
     min-height: 600px;
     min-width: 1000px;
-    position: absolute;
+    position: fixed;
     left: 15%;
   }
   
@@ -19,7 +19,9 @@
     font-family: "Jost", sans-serif;
     position: absolute;
     bottom: 0;
-    left: calc(50% - 120px);
+    /*left: calc(50% - 120px);*/
+    
+    left: 23%;
     width: 300px;
     margin-bottom: -6px;
     color: #F2F2F2;

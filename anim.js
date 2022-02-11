@@ -10,8 +10,8 @@ tl.fromTo('nav',{opacity:0}, {opacity:1, duration:1});
 
 //test
 tl.to(".steps", {
-    y: "-950px",
-    duration: 20,
-    repeat: -1,
-    ease: "none"
-  });
+  y: "-950px",
+  duration: 20,
+  repeat: -1,
+  ease: "none"
+});
