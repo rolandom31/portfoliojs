@@ -134,7 +134,7 @@ nav{
 @media only screen and  (max-width: 640px) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
     *{
         max-width: 100%;
-        overflow-x:unset;
+        
         
         scrollbar-width: none;  /* Firefox */
     }
@@ -184,6 +184,7 @@ nav{
     .container{
         height: 50vh;
         padding-top: 80%;
+        max-width: 100%;
     }
     #about{
         font-size: 3.5rem;
