@@ -122,7 +122,7 @@ nav{
         font-size: 2rem;
         color: #F2F2F2;
         display: flex;
-        left: 35%;
+        left: 37%;
         position: absolute;
     }
     .intro-text{
@@ -155,10 +155,9 @@ nav{
     }
     .header{
         text-align:center;
-       }
-       
-       
-       
-@media screen and (max-width:1080px){
-    
-}
+    }
+    .container{
+        height: 10vh;
+        padding-top: 80%;
+    }
+ }
