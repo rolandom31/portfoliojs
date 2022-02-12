@@ -133,7 +133,13 @@ nav{
 /*mobile*/
 @media only screen and  (max-width: 640px) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
     *{
-        width: auto;
+        max-width: 100%;
+        overflow-x:unset;
+        
+        scrollbar-width: none;  /* Firefox */
+    }
+    *::-webkit-scrollbar{
+        display: none;
     }
     #logo{
         font-family: 'Lobster Two', cursive;
@@ -176,7 +182,7 @@ nav{
         text-align:center;
     }
     .container{
-        height: 40vh;
+        height: 50vh;
         padding-top: 80%;
     }
     #about{
