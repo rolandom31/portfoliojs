@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Lobster+Two:ital,wght@0,400;1,400;1,700&display=swap');
 
-    .container {
+/*.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     min-width: 1000px;
     position: fixed;
     left: 15%;
-  }
+  }*/
   
   .title {
     font-family: "Jost", sans-serif;
