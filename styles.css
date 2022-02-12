@@ -20,7 +20,7 @@ main{
     max-height: 800px;
     max-width: 1280px;
     
-    position: fixed;
+    /*position: fixed;*/
     left: 15%;
   }
   
@@ -111,6 +111,25 @@ nav{
     display: inline-block;
 }
 
+.body{
+    min-height: 100vh;
+    background: rgb(246,210,145);
+    background: linear-gradient(0deg, rgba(246,210,145,1) 0%, rgba(242,159,5,1) 100%);
+    background-size: cover;
+    padding: 1rem 5rem;
+}
+#about{
+    color: #F2F2F2;
+    font-size: 15rem;
+    text-align: right;
+}
+#about-text{
+    color: #F2F2F2;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: left;
+}
+
 /*mobile*/
 @media only screen and  (max-width: 640px) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
     *{
@@ -157,7 +176,15 @@ nav{
         text-align:center;
     }
     .container{
-        height: 10vh;
+        height: 40vh;
         padding-top: 80%;
+    }
+    #about{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    #about-text{
+        font-size: 1.5rem;
+        text-align: center;
     }
  }
