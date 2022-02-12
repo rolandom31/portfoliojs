@@ -23,6 +23,7 @@ main{
     position: fixed;
     left: 15%;
   }
+  
 .landing{
     min-height: 100vh;
     background-color: #F29F05;
@@ -130,7 +131,22 @@ nav{
         width: fit-content;
     }
     .container{
-        width: fit-content;
+        width: 350px;
+        left: 4%;
+        height: 70vh;
+    }
+    .title{
+        position: relative;
+        display: flex;
         left: 0%;
+    }
+    .window{
+        width: 300px;
+    }
+    .nav{
+        width: auto;
+    }
+    .landing{
+        padding: 0,0,0,0;
     }
 }

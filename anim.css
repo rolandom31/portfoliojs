@@ -46,10 +46,11 @@
   }
   
   .window {
-    position: absolute;
+    position: relative;
+    
     border-radius: 20px;
     height: 500px;
-    width: 500px;
+    width: 80vh;
     overflow: hidden;
     box-shadow: 6px 6px 16px 0 rgba(217, 210, 200, 0.51),
       -6px -6px 16px 0 rgba(255, 255, 255, 0.43);
