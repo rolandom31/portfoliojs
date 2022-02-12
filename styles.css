@@ -112,15 +112,18 @@ nav{
 }
 
 /*mobile*/
-@media only screen and (max-width: 2688px) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and  (max-width: 640px) { /* max-width 640px, mobile-only styles, use when QAing mobile issues */
     *{
         width: auto;
     }
     #logo{
         font-family: 'Lobster Two', cursive;
-        
+        align-items: center;
         font-size: 2rem;
         color: #F2F2F2;
+        display: flex;
+        left: 35%;
+        position: absolute;
     }
     .intro-text{
         color: #F29F05;
@@ -130,23 +133,32 @@ nav{
         right: 50%;
         width: fit-content;
     }
-    .container{
-        width: 350px;
-        left: 4%;
-        height: 70vh;
-    }
+    
     .title{
         position: relative;
         display: flex;
         left: 0%;
     }
-    .window{
-        width: 300px;
-    }
+    
     .nav{
-        width: auto;
+        display: none;
+        display: inline-block;
+           padding:0; 
+           list-style:none;
+           text-align:left;
+    }
+    .nav-links{
+        display: none;
     }
     .landing{
         padding: 0,0,0,0;
     }
+    .header{
+        text-align:center;
+       }
+       
+       
+       
+@media screen and (max-width:1080px){
+    
 }
