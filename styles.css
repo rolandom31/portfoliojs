@@ -113,8 +113,8 @@ nav{
 
 .body{
     min-height: 100vh;
-    background: rgb(246,210,145);
-    background: linear-gradient(0deg, rgba(246,210,145,1) 0%, rgba(242,159,5,1) 100%);
+    background: rgb(242,116,5);
+background: linear-gradient(0deg, rgba(242,116,5,1) 0%, rgba(242,159,5,1) 100%);
     background-size: cover;
     padding: 1rem 5rem;
 }
