@@ -128,7 +128,9 @@ nav{
         margin-top: 30vh;
         right: 50%;
         width: fit-content;
-        
-
+    }
+    .container{
+        width: fit-content;
+        left: 0%;
     }
 }
